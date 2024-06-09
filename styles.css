@@ -1,0 +1,242 @@
+:root {
+  --heading-fonts: "Asap", sans-serif;
+  --default-fonts: "Poppins", sans-serif;
+  --secondary-fonts: "Inter", sans-serif;
+  --first-color: #811112;
+  --second-color: #ac3834;
+  --third-color: #b41e22;
+  --forth-color: #3d0b0c;
+  --background-color: #edd7bd;
+  --btn-box-shadow: 5px 5px rgba(145, 145, 145, 0.5);
+}
+
+h1 {
+  font-family: var(--heading-fonts);
+  color: var(--third-color);
+  font-weight: 600;
+  font-size: 90px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-family: var(--heading-fonts);
+}
+
+p {
+  font-size: 20px;
+  font-weight: normal;
+  font-weight: 500;
+  font-family: var(--secondary-fonts);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: var(--default-fonts);
+  font-weight: 50;
+  font-size: 20px;
+  padding: 20px;
+}
+
+nav a {
+  color: #272142;
+}
+
+nav a:hover {
+  color: var(--first-color);
+  transition: all 100ms ease-in-out;
+}
+nav .logo {
+  color: var(--second-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 17px;
+}
+nav li.active a {
+  color: var(--third-color);
+}
+
+.hero {
+  padding: 50px 40px;
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+.hero h2 {
+  font-family: var(--default-fonts);
+  font-weight: normal;
+  margin-bottom: 40px;
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.hero p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 27px;
+  color: var(--forth-color);
+}
+.about,
+.projects,
+.contact {
+  padding: 50px 40px;
+}
+
+.contact-btn,
+.project-btn {
+  font-family: var(--default-fonts);
+  padding: 15px 30px;
+  font-size: 18px;
+  box-shadow: var(--btn-box-shadow);
+  background-color: var(--first-color);
+  color: white;
+  border: 2px solid var(--first-color);
+  border-radius: 5px;
+}
+.contact-btn:hover,
+.project-btn:hover {
+  color: var(--first-color);
+  background-color: white;
+  border: 2px solid var(--first-color);
+  transition: all 100ms ease-in-out;
+}
+
+.main-content h1 {
+  font-size: 40px;
+}
+.main-content p {
+  line-height: 1.7;
+}
+
+.project-name {
+  font-size: 46px;
+}
+
+.project-pic {
+  border-radius: 5px;
+}
+
+.project-description,
+.about-content {
+  padding: 100px 50px;
+}
+
+.works h2 {
+  text-align: center;
+  font-family: var(--default-fonts);
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.works .project-description {
+  padding: 30px 50px;
+}
+
+.works a {
+  display: block;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-infos {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  padding: 29px 20px;
+  box-shadow: var(--btn-box-shadow);
+}
+
+.contact h2 {
+  font-family: var(--default-fonts);
+}
+
+.contact a {
+  color: var(--second-color);
+  font-weight: 600;
+}
+
+.contact a:hover {
+  color: var(--forth-color);
+}
+
+.icons {
+  color: var(--first-color);
+  background-color: var(--background-color);
+  margin-right: 5px;
+}
+
+.icons:hover {
+  color: var(--forth-color);
+}
+
+footer {
+  margin-top: 95px;
+  margin-bottom: 55px;
+}
+
+footer a {
+  font-size: 20px;
+  margin-right: 15px;
+  color: var(--first-color);
+  background-color: var(--background-color);
+  padding: 15px 20px;
+  border-radius: 50%;
+}
+
+footer a:hover {
+  color: var(--background-color);
+  background-color: var(--first-color);
+  transition: all 100ms ease-in-out;
+}
+
+.open-source-detail {
+  font-size: 10px;
+  text-align: center;
+}
+.open-source-detail a {
+  color: var(--forth-color);
+}
+.open-source-detail a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .hero {
+    padding: 25px 20px;
+  }
+
+  .project-name {
+    font-size: 34px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about,
+  .projects {
+    text-align: center;
+    padding: 25px 20px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+}
