@@ -1,2 +1,2 @@
 # Single-Page-Portfolio
- a Simple single-web-page portfolio
+ Created a simple and responsive single-web-page portfolio using HTLM, CSS, JavaScript and Bootstrap.
