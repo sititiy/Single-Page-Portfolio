@@ -1,5 +1,5 @@
 const navItems = document.querySelectorAll(".nav-item");
-console.log(navItems);
+
 
 navItems.forEach((item) => {
   item.addEventListener("click", () => {
