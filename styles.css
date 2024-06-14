@@ -120,6 +120,23 @@ nav li.active a {
   line-height: 1.7;
 }
 
+.education {
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+.education-location {
+  color: var(--second-color);
+  opacity: 0.9;
+}
+
+.shadow-effect {
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.shadow-effect:hover {
+  box-shadow: 6px 6px 0 0 var(--first-color);
+}
 .project-name {
   font-size: 46px;
 }
@@ -233,6 +250,13 @@ footer a:hover {
   .projects {
     text-align: center;
     padding: 25px 20px;
+  }
+  .contact-infos a {
+    font-size: 13px;
+  }
+
+  .skills p {
+    font-size: 15px;
   }
 
   nav a {
